@@ -1,4 +1,5 @@
 #include "fakeArduino.hpp"
+#include "fakeArduino.hpp"
 #define SAMPLE_RATE 100 
 
 #define JOYSTICK_PIN A2

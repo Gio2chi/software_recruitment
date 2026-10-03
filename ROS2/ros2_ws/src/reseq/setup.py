@@ -13,11 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ubuntu',
-    maintainer_email='ubuntu@todo.todo',
-    description='TODO: Package description',
+    maintainer='Gio2chi',
+    maintainer_email='gio.angaroni@gmail.com',
+    description='Temperature logger for the reseq project',
     license='Apache-2.0',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'temperature_logger = reseq.temperature_logger:main',
